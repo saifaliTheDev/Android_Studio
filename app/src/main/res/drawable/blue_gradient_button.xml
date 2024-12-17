@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background Gradient -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#4A90E2"
+            android:centerColor="#50C9C3"
+            android:endColor="#007AFF"
+            android:angle="135"
+            android:type="linear" />
+            <corners android:radius="16dp" />
+        </shape>
+    </item>
+
+    <!-- Highlight Shadow -->
+    <item android:top="2dp" android:left="2dp">
+        <shape>
+            <solid android:color="#30FFFFFF" /> <!-- Transparent white shadow -->
+            <corners android:radius="16dp" />
+        </shape>
+    </item>
+</layer-list>
